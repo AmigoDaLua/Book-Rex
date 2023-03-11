@@ -1,10 +1,10 @@
 # BookRex: my CS50's final project
-BookRex is a web application that collects reading recommendations from users:
+**BookRex** is a web application that collects reading recommendations from users.
 Anyone can submit their book recommendations, contributing to spread the word around.
 
 ## The app
 All this started some 4 months ago: I was looking for a way to become a software developer 
-so I've started Harvard's CS50 via Fundação Estudar. Until this year (2022), I just had some basic
+so I've started **Harvard's CS50** via Fundação Estudar. Until this year (2022), I just had some basic
 notions of HTML, CSS and Python that I'd learned for fun through the years. But, how I said, 
 I was looking for real, solid knowledge.
 
@@ -32,7 +32,7 @@ recommendations.
 * **Recommendations** exibits all the recs made so far
 
 <img
-  src="/img/recommendations .gif"
+  src="/img/recommendations.gif"
   alt="Recomendations page"
   style="display: inline-block;  padding: 10px; max-width: 300px">
   
