@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+
+{% block body %}
+        <div style="margin-bottom: 35px"></div>
+            <div align="center">
+            <div style="max-width: 100%">
+                <img src="/static/recommendations.png" alt="Recommendations so far" style="max-width:600px; margin-bottom: 15px">
+            </div>
+
+        <table>
+                <thead>
+                <tr>
+                    <td>   Title   </td>
+                    <td style="min-width: 200px"> Author(s)  </td>
+                    <td>   Reason  </td>
+                </tr>
+                </thead>
+                <tbody>
+                    {% for rec in recs %}
+                <tr>
+                    <td>{{ rec["title"] }}</td>
+                    <td>{{ rec["author"] }}</td>
+                    <td>{{ rec["reason"] }}</td>
+                </tr>
+                    {% endfor %}
+
+                </tbody>
+            </table>
+
+        </div>
+            <br>
+
+            <p id="recommendations" align="center">Want to  <a href="/">recommend a book?</a>
+                <br>
+                <br>
+                Want more, bookworm? Check out <a href="https://openlibrary.org/trending/now" target="_blank"> this link</a>.</p>
+        </div>
+
+{% endblock %}

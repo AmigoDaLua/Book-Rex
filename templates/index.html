@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block body %}
+        <div align="center">
+
+          <div style="margin-bottom: 65px"></div>
+          <div style="max-width: 50%">
+            <img src="/static/logo.png" alt="Book Rex logo" style="max-width:250px">
+          </div>
+          <div style="margin-bottom: 30px"></div>
+
+
+          <div style="max-width: 600px">
+
+            <div style="max-width: 450px">
+
+                  <form action="/" method="post">
+
+                    <tr>
+                    <label for="title">Book title</label>
+                    <br>
+                    <input type="text" id="title" name="title" placeholder="This book has a name?">
+
+                  <br>
+
+                <tr>
+                    <label for="lname">Author(s)</label>
+                    <br>
+                    <input type="text" id="author" name="author" placeholder="Who wrote it?">
+
+                  </tr>
+                  <br>
+                <tr>
+                    <label for="reason">Reason</label>
+                    <br>
+                    <textarea style="min-width: 250px; max-width: 300px" id="reason" name="reason" placeholder="Why do you like it so much?"></textarea>
+                  </tr>
+
+                <br>
+                <input type="submit" id="botão" value="Submit">
+
+              </form>
+            </div>
+
+
+          </div>
+          <br>
+        <div id="recommendations">
+        <p> Take a look at the <a href="/recommendations">recommendations</a>.</p>
+        </div>
+{% endblock %}

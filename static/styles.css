@@ -1,0 +1,157 @@
+<style type="text/css">
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI";
+}
+
+body {
+	background-color: black;
+	font-family: "Segoe UI";
+	color: white;
+}
+
+label {
+	font-family: "Segoe UI";
+	font-weight: bold;
+	color: white;
+}
+
+
+table {
+
+	border-collapse: collapse;
+	padding: 10px;
+	margin: 10px;
+	max-width: 100%;
+	height: 50%;
+	font-family: "Segoe UI";
+	margin-top: 30px;
+	border: 3px solid #9440C2;
+	border-radius: 25px;
+}
+
+td {
+	max-width: 500px;
+	margin: 100px;
+	padding: 15px;
+}
+
+tr:hover {
+	background-color: #9440C2;
+}
+
+a {
+	text-decoration: underline;
+	color: inherit;
+}
+
+a:hover {
+	color: #9440C2;;
+}
+
+#so-far {
+	font-family: "Segoe UI";
+}
+
+thead {
+	color: white;
+	text-align: left;
+	font-weight: bold;
+	background-color: black;
+	pointer-events: none;
+}
+
+
+#title, #author, #reason {
+	font-family: "Segoe UI";
+	font-size: 16px;
+	padding:10px;
+	border-radius:10px;
+	border: 0;
+}
+
+
+#botão {
+	font-weight: bold;
+	align: center;
+	font-family: "Segoe UI";
+	background-color: black;
+	color: white;
+	padding: 6px 8px;
+	border: 3px solid white;
+	margin-top: 10px;
+}
+
+#botão:hover {
+	background-color: #9440C2;
+	color: white;
+	font-weight: bold;
+}
+
+
+#recommendations {
+	font-family: "Segoe UI";
+}
+
+#title {
+	padding: 10px;
+	margin: 5px;
+}
+
+#author{
+	padding: 10px;
+	margin: 5px;
+}
+
+#reason {
+	min-width: 50%;
+	min-height: 100px;
+	padding: 10px;
+	margin: 5px;
+}
+
+input[type=text], select, textarea {
+		/* Full width */
+		padding: 12px; /* Some padding */
+		border: 1px solid #ccc; /* Gray border */
+		border-radius: 4px; /* Rounded borders */
+	 	/* Make sure that padding and width stays in place */
+		margin-top: 6px; /* Add a top margin */
+		margin-bottom: 16px; /* Bottom margin */
+		/* Allow the user to vertically resize the textarea (not horizontally) */
+		align: center;
+		min-width: 250px;
+		}
+
+		input:focus,
+		select:focus,
+		textarea:focus {
+			outline: 3px solid;
+			outline-color: #9440c2;
+		}
+
+		/* Style the submit button with a specific background color etc */
+		input[type=submit] {
+		background-color: #04AA6D;
+		color: white;
+		padding: 12px 20px;
+		border: none;
+		  border-radius: 4px;
+		  cursor: pointer;
+		}*/
+
+		/* When moving the mouse over the submit button, add a darker green color */
+		input[type=submit]:hover {
+		  background-color: blue;
+		}
+
+		/* Add a background color and some padding around the form */
+		.container {
+		border-radius: 5px;
+		background-color: red;
+		padding: 20px;
+		}
