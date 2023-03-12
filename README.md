@@ -1,6 +1,6 @@
 # BookRex: my CS50's final project
 **BookRex** is a web application that collects reading recommendations from users.
-Anyone can submit their book recommendations, contributing to spread the word around.
+Anyone can submit their book recommendations, contributing to spreading the word around.
 
 ## The app
 All this started some 4 months ago: I was looking for a way to become a software developer 
